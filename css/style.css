@@ -1,0 +1,208 @@
+/* Font */
+@import url(./font.css);
+/* CSS Variables */
+@import url(./partials/_variables.css);
+/* global */
+@import url(./partials/_global.css);
+/*------------------------------ START NAVIGATION ------------------------------*/
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 2rem 2rem 2rem 0;
+  font: normal 600 40px/2px var(--honey);
+  color: var(--primary-color);
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--primary-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/*------------------------------ END NAVIGATION ------------------------------*/
+/*----------------------------- START BANNER AREA ----------------------------*/
+.site-main .site-banner .site-title h3 {
+  padding-top: 30%;
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+  content: " ";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 1.04rem;
+}
+
+.site-main .site-banner .banner-image > img {
+  padding: 2rem 0;
+  width: 31.5rem;
+}
+
+/*------------------------------ END BANNER AREA -----------------------------*/
+/*------------------------------ START ABOUT AREA ----------------------------*/
+.site-main .about-area {
+  padding: 5rem 2rem;
+}
+
+.site-main .about-area .about-image img {
+  display: block;
+}
+
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 45px/60px var(--roboto);
+  letter-spacing: 15px;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+  padding: .4rem 1rem .4rem 0;
+}
+
+/*------------------------------- END ABOUT AREA -----------------------------*/
+/*----------------------------- START SKILLS AREA ----------------------------*/
+.site-main .skills-area {
+  padding: 5rem 2rem;
+}
+
+.site-main > .skills-area .skills {
+  background: rgba(248, 252, 253, 0.973);
+  padding: 2rem 0;
+  width: 21.5rem;
+  margin: 4rem .5rem;
+  border-radius: 4px;
+  -webkit-transition: -webkit-box-shadow .7s ease;
+  transition: -webkit-box-shadow .7s ease;
+  transition: box-shadow .7s ease;
+  transition: box-shadow .7s ease, -webkit-box-shadow .7s ease;
+}
+
+.site-main > .skills-area .skills:hover {
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+}
+
+/*------------------------------ END SKILLS AREA -----------------------------*/
+/*----------------------------- START CLUBS AREA -----------------------------*/
+.site-main .clubs-area {
+  padding: 5rem 2rem;
+}
+
+.site-main .clubs-area .club-title p {
+  padding: 0rem 7rem;
+}
+
+.site-main .clubs-area .clubs {
+  background: #ffffff10;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  margin: 3rem 0rem;
+}
+
+.site-main .clubs-area .clubs .clubs-img {
+  padding: 2rem;
+}
+
+.site-main .clubs-area .clubs .about-club {
+  padding-top: 1.25rem;
+}
+
+.site-main .clubs-area .clubs .about-club h4 {
+  font: normal 500 21px/20px var(--roboto);
+}
+
+.site-main .clubs-area .clubs .about-club h5 {
+  font: normal 500 12px/10px var(--roboto);
+}
+
+.site-main .clubs-area .clubs .about-club h6 {
+  font: normal 500 10px/10px var(--roboto);
+}
+
+.site-main .clubs-area .clubs .about-club ul {
+  padding: 0 15px;
+}
+
+.site-main .clubs-area .clubs .about-club li {
+  font-size: 14px;
+}
+
+.site-main .clubs-area .owl-carousel .owl-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 1.5rem;
+}
+
+.site-main .clubs-area .owl-carousel .owl-dots .owl-dot.active span {
+  background: var(--primary-color);
+  width: 12px;
+  height: 12px;
+}
+
+/*------------------------------- END CLUBS AREA -----------------------------*/
+/*--------------------------- START CONTACT AREA -----------------------------*/
+.site-main .contact-area {
+  padding: 7rem 0;
+}
+
+.site-main .contact-area .contacts {
+  background: #ffffff10;
+  margin: 3rem 0rem;
+}
+
+.site-main .contact-area .contact-info .contact-icon {
+  display: inline-block;
+}
+
+.site-main .contact-area .contact-info .contact a {
+  color: var(--primary-color);
+}
+
+.site-main .contact-area .contact-info .contact p {
+  color: var(--primary-color);
+}
+
+.site-main .contact-area .contact-info .contact .icon {
+  font-size: 40px;
+  padding: 1.5rem 1rem 1.5rem 0;
+  color: var(--primary-color);
+}
+
+.site-main .contact-area .contact-info .contact-info {
+  display: inline-block;
+}
+
+.site-main .contact-area .contact-info .contact .info {
+  font-size: 20px;
+}
+
+/*----------------------------- END CONTACT AREA -----------------------------*/
+/*# sourceMappingURL=style.css.map */
