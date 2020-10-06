@@ -15,7 +15,7 @@ $(document).ready(function () {
         }
     })
 
-    let nav_offset_top = $('.header_area').height() + 10
+    let nav_offset_top = $('.header_area').height() 
 
     function navbarFixed() {
         if ($('.header_area').length) {

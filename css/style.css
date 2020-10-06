@@ -4,6 +4,10 @@
 @import url(./partials/variables.css);
 /* global */
 @import url(./partials/global.css);
+html {
+  scroll-behavior: smooth;
+}
+
 /*------------------------------ START NAVIGATION ------------------------------*/
 .header_area .main-menu .navbar .navbar-brand {
   padding: 2rem 2rem 2rem 0;
@@ -67,6 +71,7 @@
 /*------------------------------ START ABOUT AREA ----------------------------*/
 .site-main .about-area {
   padding: 5rem 2rem;
+  scroll-margin-top: 6.5em;
 }
 
 .site-main .about-area .about-image img {
@@ -87,11 +92,12 @@
 /*----------------------------- START SKILLS AREA ----------------------------*/
 .site-main .skills-area {
   padding: 5rem 2rem;
+  scroll-margin-top: 5.75em;
 }
 
 .site-main > .skills-area .skills {
   background: rgba(248, 252, 253, 0.973);
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   width: 21.5rem;
   margin: 4rem .5rem;
   border-radius: 4px;
@@ -110,6 +116,7 @@
 /*----------------------------- START CLUBS AREA -----------------------------*/
 .site-main .clubs-area {
   padding: 5rem 2rem;
+  scroll-margin-top: 6.5em;
 }
 
 .site-main .clubs-area .club-title p {
@@ -171,6 +178,7 @@
 /*--------------------------- START CONTACT AREA -----------------------------*/
 .site-main .contact-area {
   padding: 7rem 0;
+  scroll-margin-top: 6.5em;
 }
 
 .site-main .contact-area .contacts {
