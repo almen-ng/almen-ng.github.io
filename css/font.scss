@@ -2,5 +2,20 @@
 
 @font-face {
     font-family: "Roboto";
-    src: "../fonts/Roboto/Roboto-Regular.ttf"
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
+
+@font-face {
+    font-family: "Orbitron";
+    src: url(../fonts/Orbitron/static/Orbitron-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "DS-Digital";
+    src: url(../fonts/ds-digital/DS-DIGI.TTF);
+  }
+  
+  @font-face {
+    font-family: "Honey-Script";
+    src: url(../fonts/honey_script/HoneyScript-Light.ttf);
+  }
